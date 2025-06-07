@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+  font-family: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #444;
+  font: 400 1rem / 1.5 "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin: 1.875rem 0.5rem;
+}
+
+header {
+  line-height: 2;
+}
+
+#title {
+  font-size: 2.625em;
+}
+
+#main {
+  background-color: #d3d3d390;
+  border-radius: 5px;
+  margin: 1.875rem 0;
+  padding: 1.8rem 1rem 2.2rem;
+}
+
+#img-div {
+  background-color: #fff;
+  margin: 1.25rem auto;
+  padding: 0.625rem 0.625rem 1.25rem;
+}
+
+#image {
+  display: block;
+  height: auto;
+  margin: 0 auto 1.25rem;
+  max-width: 100%;
+}
+
+ul {
+  margin: 3rem auto;
+  max-width: 560px;
+  padding: 0 2rem;
+  text-align: left;
+}
+
+li {
+  margin: 1.125rem 0;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 3rem auto;
+  max-width: 610px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+#tribute-info {
+  margin-top: 3rem;
+}
+
+#tribute-link:link {
+  color: #4287f5;
+}
+
+#tribute-link:visited {
+  color: #8e42f5;
+}
