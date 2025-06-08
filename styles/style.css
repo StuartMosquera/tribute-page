@@ -14,7 +14,9 @@ html {
 body {
   background-color: #fff;
   color: #444;
-  font: 400 1rem / 1.5 "Segoe UI", sans-serif;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
   text-align: center;
 }
 
@@ -33,7 +35,8 @@ header {
 #main {
   background-color: #d3d3d390;
   border-radius: 5px;
-  margin: 1.875rem 0;
+  margin-bottom: 1.875rem;
+  margin-top: 1.875rem;
   padding: 1.8rem 1rem 2.2rem;
 }
 
@@ -58,7 +61,8 @@ ul {
 }
 
 li {
-  margin: 1.125rem 0;
+  margin-bottom: 1.125rem;
+  margin-top: 1.125rem;
 }
 
 abbr {
