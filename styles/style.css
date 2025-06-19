@@ -16,7 +16,7 @@ html {
 body {
   background-color: #fff;
   color: #444;
-  font-family: "Segoe UI", sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   text-align: center;
@@ -28,25 +28,6 @@ abbr {
 
 h3 {
   font-size: 1.1em;
-}
-
-ul {
-  margin: 3rem auto;
-  max-width: 560px;
-  padding: 0 2rem;
-  text-align: left;
-}
-
-li {
-  margin-bottom: 1.125rem;
-  margin-top: 1.125rem;
-}
-
-blockquote {
-  font-style: italic;
-  margin: 3rem auto;
-  max-width: 610px;
-  text-align: left;
 }
 
 .container {
@@ -82,6 +63,25 @@ header {
   height: auto;
   margin: 0 auto 1.25rem;
   max-width: 100%;
+}
+
+ul {
+  margin: 3rem auto;
+  max-width: 560px;
+  padding: 0 2rem;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 1.125rem;
+  margin-top: 1.125rem;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 3rem auto;
+  max-width: 610px;
+  text-align: left;
 }
 
 #tribute-info {
